@@ -1,0 +1,409 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F8F8;
+    ;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.navbar-links {
+    display:flex;
+    column-gap: 20px;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-links a:hover{
+    text-decoration: underline;
+    color:brown;
+}
+
+.navbar-menu-toggle{
+    display: none;
+}
+
+.logo{
+    width:122px;
+height: 63px;
+top: 13px;
+left: 664px;
+gap: 10px;
+
+}
+/*side nav bar*/
+.side-navbar{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: -60%;
+    padding: 20px;
+    color: white;
+    transition: 1s;
+   
+}
+
+.side-navbar-link{
+    margin-bottom: 30px;
+}
+
+.side-navbar-links{
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-links a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.side-navbar-links a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+/*header*/
+img{
+    width: 1520px;
+height: 700px;
+top: 90px;
+position: center;
+padding-right: 0;
+}
+
+.pic{
+    width: 1440px;
+height: 700px;
+top: 90px;
+
+}
+
+.text{
+    font-family: PT Serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: normal;
+text-align: right;
+position: absolute;
+padding: 20px;
+color: aliceblue;
+width: 341px;
+height: 52px;
+top: 419px;
+left: 1049px;
+
+
+}
+
+
+.b{
+
+    width: 148px;
+    height: 41px;
+    top: 600px;
+    left: 1148px;   
+    margin-top: 30px;
+    margin-right: 40px;
+
+        border: 2px solid;
+        border-radius: 50px; /* Use a large value for border-radius to create an oval shape */
+        background-color: transparent;
+        color:brown(216, 216, 221); /* Text color */
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+      }
+      
+      .b a:hover{
+        border-color: #ffffff; /* Change border color on hover */
+        text-decoration: none;
+        color: brown;
+      }
+      
+
+.b a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+   padding-left: 10px;
+}
+
+  
+.service{
+    padding: 20px;
+}
+
+.image{
+    width: 60.37px;
+height: 60.37px;
+top: 45px;
+left: 188.38px;
+padding: 20px;
+align-items: center;
+padding-left: 220px;
+  }
+
+.service-container-1 div{
+    background-color: rgb(207, 207, 207);
+    width: fit-content;
+   
+    justify-content: space-between;
+   
+   
+   
+
+}
+
+.servicetext{
+    width: 256.01px;
+height: 23px;
+top: 115.37px;
+left: 70px;
+font-family: PT Serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: brown;
+align-content: center;
+padding-left: 120px;
+
+}
+
+
+.serviceex{
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.Dtext{
+    font-family: PT Serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+width: 179px;
+height: 31px;
+top: 1117px;
+left: 53px;
+color: brown;
+
+}
+
+.Designs{
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px; 
+    display: flex;
+    gap: 30px;
+}
+
+
+.dimage{
+    width: 436px;
+height: 550px;
+top: 1187px;
+left: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.D, .H, .M {
+    display: contents;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: left 50px;
+    color: brown;
+    font-size: 20px;
+}
+
+.D {
+    width: 74px;
+    height: -40px;
+    position: absolute;
+    top: 1690px;
+    left: 226px;
+}
+
+.H {
+    width: 165px;
+    height: 17px;
+    position:absolute;
+    top: 1699px;
+    left: 638px;
+    padding-left: 70px;
+}
+
+.M {
+    width: 115px;
+    height: -20px;
+    position: absolute;
+    top: 1690px;
+    left: 1115px;
+    padding-left: 100px;
+}
+
+.Dex{
+    width: 74px;
+height: 18px;
+top: 1752px;
+left: 226px;
+color: brown;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.shop-now{
+    color: black;
+    text-decoration: none;
+}
+
+.f{
+    height:340px;
+    background-color: black;
+    display: block;
+}
+
+.w{
+    width: 1440px;
+height: 316px;
+top: 2462px;
+    background-color: black;
+    display: block;
+    
+}
+
+.ze{
+    width: 80px;
+height: 50px;
+top: 2563px;
+left: 50px;
+padding-left: 20px;
+
+
+}
+
+.zel{
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.end{
+    color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 150px;
+
+}
+.c{
+    width: 28px;
+height: 25px;
+top: 2584px;
+left: 700px;
+bottom: 50px;
+display: flex;
+justify-content:center;
+align-items: center;
+padding-right: -60px;
+
+}
+
+.line{
+    
+    border: 1px solid #1E293B;
+  
+}
+
+.l{
+    color: #F8F8F8;
+    text-align: center;
+    padding-top: 30px;
+}
+.wrapper{
+    background-color: black;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query*/
+
+@media  screen and (max-width:700px) {
+    .navbar-menu-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+
+        img{
+            width: 600px;
+        height: 700px;
+        top: 90px;
+        position: center;
+    }
+
+    .service-container-1{
+        flex-direction: column;
+    }
+    .Designs{
+        flex-direction: column;
+    }
+
+    .design-cointer{
+        flex-direction: column;
+    }
+}
+
+
+
+
